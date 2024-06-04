@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input2</title>
+  </head>
+  <body>
+    <h2>Don't HURRY</h2>
+    <form action="/users" method="post"></form>
+    <br />
+    <fieldset>
+      <legend>Please check again!</legend>
+      <label for="language">Choose language:</label>
+      <select name="lang" id="language">
+        <option selected disabled>Select</option>
+        <option value="eng">English</option>
+        <option value="uz">Uzbek</option>
+        <option value="kr">Korean</option>
+      </select>
+      <hr />
+      <label for="language">Choose Programming Language</label>
+      <select name="lang" id="language">
+        <optgroup label="Back end">
+          <option value="">Nodejs</option>
+          <option value="">Phyton</option>
+          <option value="">PHP</option>
+        </optgroup>
+        <optgroup label="Front end">
+          <option value="">HTML</option>
+          <option value="">CSS</option>
+          <option value="">BOOTSTRAP</option>
+        </optgroup></select
+      ><br /><br />
+      <label for="message">Message</label><br />
+      <textarea
+        name="message"
+        id="message"
+        rows="20"
+        cols="20"
+        placeholder="Write your message"
+      ></textarea
+      ><br /><br />
+      <input list="web" name="developer" />
+      <datalist id="web">
+        <option value="HTML"></option>
+        <option value="CSS"></option>
+        <option value="JavaScript"></option></datalist
+      ><br /><br />
+      <button type="submit">Submit</button>
+    </fieldset>
+  </body>
+</html>

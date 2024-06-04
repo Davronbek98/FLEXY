@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+    <p>You can leave your information on our site</p>
+    <br /><br />
+    <p>Visit <a href="">Example Website</a> for more information</p>
+    <h2>Our Users</h2>
+    <br /><br />
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Gender</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>john@gmail.com</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Umida</td>
+          <td>umida@gmail.com</td>
+          <td>Female</td>
+        </tr>
+        <tr>
+          <td>Martin</td>
+          <td>martin@gmail.com</td>
+          <td>Male</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <h1>Please full fillall input</h1>
+    <form action="inex.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" /><br /><br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" /><br /><br />
+      <label for="radio">Gender:</label>
+      <label for="male">Male</label>
+      <input type="radio" name="radio" id="male" value="Male" />
+      <label for="female">Female</label>
+      <input type="radio" name="radio" id="female" value="Female" /><br /><br />
+      <label for="country">Country</label>
+      <select name="country" id="country">
+        <option value="">Select</option>
+        <option value="">Uzb</option>
+        <option value="">KR</option></select
+      ><br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
